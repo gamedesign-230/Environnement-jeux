@@ -346,3 +346,116 @@ Received Import Request.
 Start importing Assets/NewBrush 3.brush using Guid(b662185438687544ebb3d54a2543210d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a363b9e7e0a967b27059d017325a9ca7') in 0.013156 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 1805.019401 seconds.
+  path: Assets/NewLayer 5.terrainlayer
+  artifactKey: Guid(39c5ba58aaa341b4a82f5739273ccf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 5.terrainlayer using Guid(39c5ba58aaa341b4a82f5739273ccf21) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2cf4161b26ee9bd569d3cb2a735f14bb') in 0.042473 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 176.636536 seconds.
+  path: Assets/NewLayer 3.terrainlayer
+  artifactKey: Guid(cc7b8678aa17aad44a6c9f673cb789b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 3.terrainlayer using Guid(cc7b8678aa17aad44a6c9f673cb789b7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3bebd0bbff613032ed16341ab209962f') in 0.021933 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.296199 seconds.
+  path: Assets/NewLayer 4.terrainlayer
+  artifactKey: Guid(f3914542786daef4e88b0a30365c7bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 4.terrainlayer using Guid(f3914542786daef4e88b0a30365c7bb8) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '07dcd787102cfed28aab9e4f03289c51') in 0.022207 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 401.658114 seconds.
+  path: Assets/NewLayer 8.terrainlayer
+  artifactKey: Guid(3c9c042b3e6c6484598288a130c2ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 8.terrainlayer using Guid(3c9c042b3e6c6484598288a130c2ca74) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '731b505d668f29a61abd380050fd436e') in 0.023255 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 12.226050 seconds.
+  path: Assets/TerrainData_db7f09d9-9118-4b69-8d79-38060fdf18e1.asset
+  artifactKey: Guid(426c6eee946ee2046b7f1b42203d61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TerrainData_db7f09d9-9118-4b69-8d79-38060fdf18e1.asset using Guid(426c6eee946ee2046b7f1b42203d61c0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abf539c59667850fb068d90fd5d09a87') in 0.019081 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.099 seconds
+Refreshing native plugins compatible for Editor in 3.20 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  8.629 seconds
+Domain Reload Profiling: 10725ms
+	BeginReloadAssembly (160ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (37ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (1869ms)
+		LoadAssemblies (1944ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (12ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (8630ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (328ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (239ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 4.36 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3075 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.0 KB). Loaded Objects now: 3584.
+Memory consumption went from 138.3 MB to 138.2 MB.
+Total: 2.931300 ms (FindLiveObjects: 0.218700 ms CreateObjectMapping: 0.161700 ms MarkObjects: 2.518000 ms  DeleteObjects: 0.032300 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 2169.849952 seconds.
+  path: Assets/NewLayer 9.terrainlayer
+  artifactKey: Guid(3fba8639d897cdf48b03e0ce95293f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/NewLayer 9.terrainlayer using Guid(3fba8639d897cdf48b03e0ce95293f53) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ec292f765a09babd51a568d5a3d01bc') in 0.041941 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
