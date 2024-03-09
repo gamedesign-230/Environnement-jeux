@@ -193,3 +193,35 @@ Received Import Request.
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83b6f2e778eb49d6b48e040b4b148114') in 0.004614 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 5418.152716 seconds.
+  path: Assets/Building_Body 92.obj
+  artifactKey: Guid(265094a20226047348632b74229fc3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Body 92.obj using Guid(265094a20226047348632b74229fc3f6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3427a5d637068eab9798570eba669e8b') in 1.418880 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 20.736856 seconds.
+  path: Assets/Building
+  artifactKey: Guid(a3453e55e903349889f57bc593912a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building using Guid(a3453e55e903349889f57bc593912a17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bfd3f85d1eb3cdb8998151ce842133b') in 0.000442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 1.622471 seconds.
+  path: Assets/Building_Body 07 (1).obj
+  artifactKey: Guid(86dfb2f469dbe4ceba911d6647ba015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Body 07 (1).obj using Guid(86dfb2f469dbe4ceba911d6647ba015a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1cdf8e41e56d02b5543292ede69b4fb7') in 0.032442 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
+========================================================================
+Received Import Request.
+  Time since last request: 1.899905 seconds.
+  path: Assets/Building_Body 55 (8).obj
+  artifactKey: Guid(d4e1b3cd431e04242a03184d36f1004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Building_Body 55 (8).obj using Guid(d4e1b3cd431e04242a03184d36f1004b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dbf67d373a57088e208411365afd0808') in 0.029554 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 10
