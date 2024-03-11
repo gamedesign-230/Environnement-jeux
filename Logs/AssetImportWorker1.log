@@ -186,3 +186,2100 @@ Received Import Request.
 Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51f88955c87954847fbe46f15a9f675b') in 0.002030 seconds
 Number of updated asset objects reloaded before import = 0
 Number of asset objects unloaded after import = 0
+========================================================================
+Received Import Request.
+  Time since last request: 4390.000411 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DenseSmallLeavesTinyPurpleFlowers_Color-unity.tga
+  artifactKey: Guid(4cf2f929e73475942b052791c10e7810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DenseSmallLeavesTinyPurpleFlowers_Color-unity.tga using Guid(4cf2f929e73475942b052791c10e7810) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d74f15d46502faa39cd6de125cd5c49') in 0.079383 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+IOException: Sharing violation on path C:\Users\e2053322\Documents\GitHub\Environnement-jeux\ProjectSettings\Packages\com.unity.testtools.codecoverage\Settings.json
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.Boolean anonymous, System.IO.FileOptions options) [0x0019e] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.FileStream..ctor (System.String path, System.IO.FileMode mode, System.IO.FileAccess access, System.IO.FileShare share, System.Int32 bufferSize, System.IO.FileOptions options) [0x00000] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.FileStream..ctor(string,System.IO.FileMode,System.IO.FileAccess,System.IO.FileShare,int,System.IO.FileOptions)
+  at System.IO.StreamWriter..ctor (System.String path, System.Boolean append, System.Text.Encoding encoding, System.Int32 bufferSize) [0x00055] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at System.IO.StreamWriter..ctor (System.String path) [0x00008] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at (wrapper remoting-invoke-with-check) System.IO.StreamWriter..ctor(string)
+  at System.IO.File.WriteAllText (System.String path, System.String contents) [0x00026] in <dc753a1061284f8e971ee88ee4826eee>:0 
+  at UnityEditor.SettingsManagement.FileSettingsRepository.Save () [0x000e2] in .\Library\PackageCache\com.unity.settings-manager@2.0.1\Editor\FileSettingsRepository.cs:154 
+  at UnityEditor.AssemblyReloadEvents.OnBeforeAssemblyReload () [0x00017] in <5d5ebefe97114215928ac1d9cd096522>:0 
+
+(Filename: ./Library/PackageCache/com.unity.settings-manager@2.0.1/Editor/FileSettingsRepository.cs Line: 154)
+
+- Loaded All Assemblies, in  0.397 seconds
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  9.310 seconds
+Domain Reload Profiling: 9705ms
+	BeginReloadAssembly (146ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (35ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (177ms)
+		LoadAssemblies (235ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (9311ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (325ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (236ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.74 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3076 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3565.
+Memory consumption went from 133.2 MB to 133.1 MB.
+Total: 3.663700 ms (FindLiveObjects: 0.233700 ms CreateObjectMapping: 0.188100 ms MarkObjects: 3.170300 ms  DeleteObjects: 0.070600 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  2.101 seconds
+Refreshing native plugins compatible for Editor in 3.58 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in 10.390 seconds
+Domain Reload Profiling: 12488ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (28ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (28ms)
+	LoadAllAssembliesAndSetupDomain (1893ms)
+		LoadAssemblies (1956ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (15ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (8ms)
+	FinalizeReload (10391ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (354ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (55ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (18ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (7ms)
+Refreshing native plugins compatible for Editor in 4.20 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.2 KB). Loaded Objects now: 3568.
+Memory consumption went from 135.4 MB to 135.3 MB.
+Total: 2.313700 ms (FindLiveObjects: 0.228700 ms CreateObjectMapping: 0.220400 ms MarkObjects: 1.827000 ms  DeleteObjects: 0.037000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.380 seconds
+Refreshing native plugins compatible for Editor in 3.36 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.757 seconds
+Domain Reload Profiling: 1134ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (171ms)
+		LoadAssemblies (237ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (18ms)
+			TypeCache.Refresh (7ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (5ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (757ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (322ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (235ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.21 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3571.
+Memory consumption went from 137.3 MB to 137.3 MB.
+Total: 2.302700 ms (FindLiveObjects: 0.240800 ms CreateObjectMapping: 0.158900 ms MarkObjects: 1.869300 ms  DeleteObjects: 0.033100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.369 seconds
+Refreshing native plugins compatible for Editor in 3.08 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.755 seconds
+Domain Reload Profiling: 1120ms
+	BeginReloadAssembly (135ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (166ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (755ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (336ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (53ms)
+			ProcessInitializeOnLoadAttributes (247ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.35 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3574.
+Memory consumption went from 139.2 MB to 139.2 MB.
+Total: 2.385600 ms (FindLiveObjects: 0.240200 ms CreateObjectMapping: 0.190200 ms MarkObjects: 1.890700 ms  DeleteObjects: 0.063900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.411 seconds
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.766 seconds
+Domain Reload Profiling: 1175ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (32ms)
+	RebuildCommonClasses (36ms)
+	RebuildNativeTypeToScriptingClass (13ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (183ms)
+		LoadAssemblies (242ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (19ms)
+			TypeCache.Refresh (8ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (6ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (767ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (333ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (5ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (51ms)
+			ProcessInitializeOnLoadAttributes (249ms)
+			ProcessInitializeOnLoadMethodAttributes (17ms)
+			AfterProcessingInitializeOnLoad (7ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (5ms)
+Refreshing native plugins compatible for Editor in 3.05 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3577.
+Memory consumption went from 141.2 MB to 141.1 MB.
+Total: 2.176400 ms (FindLiveObjects: 0.214100 ms CreateObjectMapping: 0.149700 ms MarkObjects: 1.781700 ms  DeleteObjects: 0.030200 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.374 seconds
+Refreshing native plugins compatible for Editor in 3.13 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.771 seconds
+Domain Reload Profiling: 1143ms
+	BeginReloadAssembly (147ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (33ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (161ms)
+		LoadAssemblies (231ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (10ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (772ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (352ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (258ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.23 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3580.
+Memory consumption went from 143.1 MB to 143.1 MB.
+Total: 2.479200 ms (FindLiveObjects: 0.306900 ms CreateObjectMapping: 0.261600 ms MarkObjects: 1.868500 ms  DeleteObjects: 0.041500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.367 seconds
+Refreshing native plugins compatible for Editor in 3.40 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.789 seconds
+Domain Reload Profiling: 1153ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (25ms)
+	RebuildCommonClasses (26ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (164ms)
+		LoadAssemblies (232ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (790ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (350ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (54ms)
+			ProcessInitializeOnLoadAttributes (256ms)
+			ProcessInitializeOnLoadMethodAttributes (20ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (8ms)
+Refreshing native plugins compatible for Editor in 3.85 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3583.
+Memory consumption went from 145.0 MB to 145.0 MB.
+Total: 2.342800 ms (FindLiveObjects: 0.250100 ms CreateObjectMapping: 0.226400 ms MarkObjects: 1.830600 ms  DeleteObjects: 0.035100 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.368 seconds
+Refreshing native plugins compatible for Editor in 3.06 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.802 seconds
+Domain Reload Profiling: 1168ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (26ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (27ms)
+	LoadAllAssembliesAndSetupDomain (163ms)
+		LoadAssemblies (227ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (803ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (357ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (7ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (58ms)
+			ProcessInitializeOnLoadAttributes (261ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (9ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.34 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3586.
+Memory consumption went from 146.9 MB to 146.9 MB.
+Total: 2.468400 ms (FindLiveObjects: 0.262200 ms CreateObjectMapping: 0.245100 ms MarkObjects: 1.925500 ms  DeleteObjects: 0.035000 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.377 seconds
+Refreshing native plugins compatible for Editor in 3.27 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.780 seconds
+Domain Reload Profiling: 1153ms
+	BeginReloadAssembly (144ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (28ms)
+	RebuildCommonClasses (27ms)
+	RebuildNativeTypeToScriptingClass (9ms)
+	initialDomainReloadingComplete (26ms)
+	LoadAllAssembliesAndSetupDomain (168ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (11ms)
+			TypeCache.Refresh (5ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (4ms)
+	FinalizeReload (780ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (349ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (57ms)
+			ProcessInitializeOnLoadAttributes (255ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.68 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3589.
+Memory consumption went from 148.8 MB to 148.8 MB.
+Total: 2.366700 ms (FindLiveObjects: 0.251300 ms CreateObjectMapping: 0.201900 ms MarkObjects: 1.878400 ms  DeleteObjects: 0.034500 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Begin MonoManager ReloadAssembly
+- Loaded All Assemblies, in  0.391 seconds
+Refreshing native plugins compatible for Editor in 2.90 ms, found 3 plugins.
+Native extension for WindowsStandalone target not found
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] UpmClient::Send -- Unable to send message (not connected to UPM process).
+[Package Manager] Cannot connect to Unity Package Manager local server
+Mono: successfully reloaded assembly
+- Finished resetting the current domain, in  0.799 seconds
+Domain Reload Profiling: 1187ms
+	BeginReloadAssembly (139ms)
+		ExecutionOrderSort (0ms)
+		DisableScriptedObjects (5ms)
+		BackupInstance (0ms)
+		ReleaseScriptingObjects (0ms)
+		CreateAndSetChildDomain (27ms)
+	RebuildCommonClasses (32ms)
+	RebuildNativeTypeToScriptingClass (14ms)
+	initialDomainReloadingComplete (30ms)
+	LoadAllAssembliesAndSetupDomain (173ms)
+		LoadAssemblies (238ms)
+		RebuildTransferFunctionScriptingTraits (0ms)
+		AnalyzeDomain (14ms)
+			TypeCache.Refresh (6ms)
+				TypeCache.ScanAssembly (0ms)
+			ScanForSourceGeneratedMonoScriptInfo (0ms)
+			ResolveRequiredComponents (6ms)
+	FinalizeReload (799ms)
+		ReleaseScriptCaches (0ms)
+		RebuildScriptCaches (0ms)
+		SetupLoadedEditorAssemblies (362ms)
+			LogAssemblyErrors (0ms)
+			InitializePlatformSupportModulesInManaged (6ms)
+			SetLoadedEditorAssemblies (4ms)
+			RefreshPlugins (0ms)
+			BeforeProcessingInitializeOnLoad (56ms)
+			ProcessInitializeOnLoadAttributes (269ms)
+			ProcessInitializeOnLoadMethodAttributes (19ms)
+			AfterProcessingInitializeOnLoad (8ms)
+			EditorAssembliesLoaded (0ms)
+		ExecutionOrderSort2 (0ms)
+		AwakeInstancesAfterBackupRestoration (6ms)
+Refreshing native plugins compatible for Editor in 3.16 ms, found 3 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 3077 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 23 unused Assets / (31.1 KB). Loaded Objects now: 3592.
+Memory consumption went from 150.8 MB to 150.7 MB.
+Total: 2.400800 ms (FindLiveObjects: 0.280600 ms CreateObjectMapping: 0.238800 ms MarkObjects: 1.845000 ms  DeleteObjects: 0.035900 ms)
+
+Prepare: number of updated asset objects reloaded= 0
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:framework-win-MediaFoundation: 216162199b28c13a410421893ffa2e32 -> 
+  custom:CustomObjectIndexerAttribute: 6d391050e5a25f67b0a2c618074f2cd9 -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:SearchIndexIgnoredProperties: e643bd26f0fe6173181afceb89e7c659 -> 
+  custom:AudioImporter_EditorPlatform: d09bf68614088b80899f8185d706f6e7 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 1140.956372 seconds.
+  path: Assets/New Terrain 2.asset
+  artifactKey: Guid(ac20fe07797f1d24f90a853cf0484874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Terrain 2.asset using Guid(ac20fe07797f1d24f90a853cf0484874) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '63f6f0dc306075064f4b7952ed3aefd5') in 0.107241 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cut Bracken.mat
+  artifactKey: Guid(d5b4c242e28eda1479abb8626174feed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cut Bracken.mat using Guid(d5b4c242e28eda1479abb8626174feed) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4a902b15f9da4af2549fd8c60eb71778') in 0.049053 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dead Skinny Leaves 2 - bump.mat
+  artifactKey: Guid(f89102f7b957f8642adc7e449b7334f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dead Skinny Leaves 2 - bump.mat using Guid(f89102f7b957f8642adc7e449b7334f5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '93ee721dac7abc5f3982db0f9bddc5bc') in 0.044206 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/Street light.obj
+  artifactKey: Guid(90b823ecbc007429d8194ab81f6b172a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Street light.obj using Guid(90b823ecbc007429d8194ab81f6b172a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a2a8987cad97799f229ef74cd6371588') in 0.059542 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 34
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NewBrush 1.brush
+  artifactKey: Guid(5b53d94a1b2e9234997cf139f9f8dd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewBrush 1.brush using Guid(5b53d94a1b2e9234997cf139f9f8dd73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f7314005f109ff3f8fa1f644be962b1') in 0.031597 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cracked Earth - bump.mat
+  artifactKey: Guid(17296fd77d89eb042acf09c09a503b4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Cracked Earth - bump.mat using Guid(17296fd77d89eb042acf09c09a503b4d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '85ec51d45217cc9e299269b43b15e8eb') in 0.031774 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Pine Boughs.mat
+  artifactKey: Guid(3c1388499e4f2494cb2f89f1c32ae4cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Pine Boughs.mat using Guid(3c1388499e4f2494cb2f89f1c32ae4cf) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32f8a01f563f02489747ebac143990b7') in 0.027362 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss and Pine Needles.mat
+  artifactKey: Guid(9547314c2e0d1bf479c79a0fcbe87579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss and Pine Needles.mat using Guid(9547314c2e0d1bf479c79a0fcbe87579) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2be4a930d2e907894df6c02de50c23fb') in 0.026371 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NewLayer 4.terrainlayer
+  artifactKey: Guid(f3914542786daef4e88b0a30365c7bb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 4.terrainlayer using Guid(f3914542786daef4e88b0a30365c7bb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be79190a4c653aacc2ca2f80252c8fad') in 0.034106 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000029 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Pine Needles.mat
+  artifactKey: Guid(7c4e981d1f2b32949b4e00416270f51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Pine Needles.mat using Guid(7c4e981d1f2b32949b4e00416270f51a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd07ba333d3e66fa27c3b91fdc746b440') in 0.027780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NewLayer 2.terrainlayer
+  artifactKey: Guid(08ccd47fcb9d45344bcb1cb05ab30561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 2.terrainlayer using Guid(08ccd47fcb9d45344bcb1cb05ab30561) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c87f2932ffe6949c1e0943e0eff87983') in 0.023891 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dead Skinny Leaves 2.mat
+  artifactKey: Guid(1a3b1c4f7c3572440a1f9b605a273066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dead Skinny Leaves 2.mat using Guid(1a3b1c4f7c3572440a1f9b605a273066) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '31dd7e67376497524c6a543576cae0ef') in 0.024344 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_b6c75ce2-d884-4351-82d5-759fed618cb8.asset
+  artifactKey: Guid(2e9e672b8bec14243ba08433bf6cfea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainData_b6c75ce2-d884-4351-82d5-759fed618cb8.asset using Guid(2e9e672b8bec14243ba08433bf6cfea6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1f57b0dd4ace94c8a40d2526ad842d16') in 0.018897 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_4abf162a-fa41-40ee-b013-bad857d1899b.asset
+  artifactKey: Guid(4c045da4359b25d42b83eef200da901c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainData_4abf162a-fa41-40ee-b013-bad857d1899b.asset using Guid(4c045da4359b25d42b83eef200da901c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '52253f0caab3f86eba38178a702e3fad') in 0.020765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Patchy.mat
+  artifactKey: Guid(0c7a72570c467864cb3e35ad4631ab3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Patchy.mat using Guid(0c7a72570c467864cb3e35ad4631ab3e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b909111176bcbf02f6ddab446acc379') in 0.028512 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Snow More - bump.mat
+  artifactKey: Guid(7e6adcb84abafa847af4c59b57c0c467) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Snow More - bump.mat using Guid(7e6adcb84abafa847af4c59b57c0c467) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b2a14139fb13bb03b41cbe9dd1027081') in 0.035046 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Green Plants White Flowers - bump.mat
+  artifactKey: Guid(0737e26adfc1a6745a2fb57b612a2d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Green Plants White Flowers - bump.mat using Guid(0737e26adfc1a6745a2fb57b612a2d69) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0641dcdfd126ca3c2167c8e554368680') in 0.033301 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Green Shoots 2 - bump.mat
+  artifactKey: Guid(bc1cc98f3a6afbd40952f52478a330a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Green Shoots 2 - bump.mat using Guid(bc1cc98f3a6afbd40952f52478a330a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff7449be643b49606b1a6acd0ed8386d') in 0.032814 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Earth Dry Grass - bump.mat
+  artifactKey: Guid(7e0c3c91206edad40abfbb6879edb184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Earth Dry Grass - bump.mat using Guid(7e0c3c91206edad40abfbb6879edb184) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7e1dc36d8be95324a3eef09f502c3595') in 0.032674 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Ferny Bank - bump.mat
+  artifactKey: Guid(6c8f9b331457d7a4d9e2b3cb1ae55b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Ferny Bank - bump.mat using Guid(6c8f9b331457d7a4d9e2b3cb1ae55b63) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ba69f5569c0d0ddb0a908fb682605f0b') in 0.032838 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Leafy Trail - bump.mat
+  artifactKey: Guid(40466462e8ad67e4193b4df8f2b3dae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Leafy Trail - bump.mat using Guid(40466462e8ad67e4193b4df8f2b3dae6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9cef7ef395ddfff05cce709576453824') in 0.031497 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/New Terrain 3.asset
+  artifactKey: Guid(4ed0819f5e86d9e4a88314ed84c991c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/New Terrain 3.asset using Guid(4ed0819f5e86d9e4a88314ed84c991c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5e19792ba98bb059612ab8abea009c58') in 0.032480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Dirt Small Rocks.mat
+  artifactKey: Guid(3c5c97ad4592b874bb4832935f163c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Dirt Small Rocks.mat using Guid(3c5c97ad4592b874bb4832935f163c27) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7c47224d4aa96528dcc56b7f4b3ed2e') in 0.024298 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TerrainData_db7f09d9-9118-4b69-8d79-38060fdf18e1.asset
+  artifactKey: Guid(426c6eee946ee2046b7f1b42203d61c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainData_db7f09d9-9118-4b69-8d79-38060fdf18e1.asset using Guid(426c6eee946ee2046b7f1b42203d61c0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '09a491520661ea177a11381f66bb85de') in 0.022714 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff.mat
+  artifactKey: Guid(6722c343474a05849a391c8083d13646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff.mat using Guid(6722c343474a05849a391c8083d13646) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3cb8593ae6d544f170247d4868411ef9') in 0.024492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dead Skinny Leaves - bump.mat
+  artifactKey: Guid(3d7f627b3667a924d9217156f8d21e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dead Skinny Leaves - bump.mat using Guid(3d7f627b3667a924d9217156f8d21e54) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a621ea90105cf99fcb7488a619d4ecec') in 0.033866 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/NewLayer 1.terrainlayer
+  artifactKey: Guid(025edd8671c95dd41905b278b5bc4073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 1.terrainlayer using Guid(025edd8671c95dd41905b278b5bc4073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'afae7ff87602f03d61f342bc1063877d') in 0.022721 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Pointy Leaves - bump.mat
+  artifactKey: Guid(3feb188b8d10acf4b8740b9c03d9c896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Pointy Leaves - bump.mat using Guid(3feb188b8d10acf4b8740b9c03d9c896) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '26ff6e91c65813d6aa84d8d5f653d9b5') in 0.025665 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/NewLayer 9.terrainlayer
+  artifactKey: Guid(3fba8639d897cdf48b03e0ce95293f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 9.terrainlayer using Guid(3fba8639d897cdf48b03e0ce95293f53) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f9a4e765f3168f8374e8b7ff209c35cd') in 0.022910 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Mossy Rocks and Leaves.mat
+  artifactKey: Guid(f31bd972fa533e848859cd925a0e0aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Mossy Rocks and Leaves.mat using Guid(f31bd972fa533e848859cd925a0e0aea) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f6ab14be7cc5a2e6a1093fcaddd55c3d') in 0.023646 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Moss and Pine Needles - bump.mat
+  artifactKey: Guid(4f4c693a2c18ef944810d91be9d911f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Moss and Pine Needles - bump.mat using Guid(4f4c693a2c18ef944810d91be9d911f3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '76c6766f917a1ffb277bb1bf9cc5e8c8') in 0.030121 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Hilly Undergrowth - bump.mat
+  artifactKey: Guid(60d312785fbcc2048817263cbe7e076b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Hilly Undergrowth - bump.mat using Guid(60d312785fbcc2048817263cbe7e076b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd5c19a5edf854ad0fb6fbaa3505537c9') in 0.031905 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Boughs - bump.mat
+  artifactKey: Guid(4df7ae1b67513b84aa74497da5cf2030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Boughs - bump.mat using Guid(4df7ae1b67513b84aa74497da5cf2030) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '20417ad922eba97e0da02e0a97dc5407') in 0.030339 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ColorFallLeavesOnGrass_Color-unity.tga
+  artifactKey: Guid(7ebee3d4c8552204988e33c88bb790b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ColorFallLeavesOnGrass_Color-unity.tga using Guid(7ebee3d4c8552204988e33c88bb790b6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc1276ec80ff07a08d232ba6853c4950') in 0.048688 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Sticks and Duff - bump.mat
+  artifactKey: Guid(14198fdb656f3f94c97cadda47cb1291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Sticks and Duff - bump.mat using Guid(14198fdb656f3f94c97cadda47cb1291) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b4b6444cb61b76ce17dc0082285ca1e4') in 0.029635 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BarkChips.tga
+  artifactKey: Guid(65f2af02424ffe2488f71449de1136d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BarkChips.tga using Guid(65f2af02424ffe2488f71449de1136d0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2a19e69df2cf06d2102bc85563c7ff88') in 0.030892 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DeadSkinnyLeaves-Closer_Color-unity.tga
+  artifactKey: Guid(504c8a46943331c4d99e1c3f33c7adb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DeadSkinnyLeaves-Closer_Color-unity.tga using Guid(504c8a46943331c4d99e1c3f33c7adb8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4e4980c49a592e2c286e992de7ba23f7') in 0.023929 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves - bump.mat
+  artifactKey: Guid(0767790b062a6c946a81f10cf7d90c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves - bump.mat using Guid(0767790b062a6c946a81f10cf7d90c02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9a33898a2914175de24cefb4e2f7320a') in 0.027937 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-CrackedEarthCloser.tga
+  artifactKey: Guid(781259bce62c9f64f91de7723a09de32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-CrackedEarthCloser.tga using Guid(781259bce62c9f64f91de7723a09de32) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32be596810962f0221b615a65b329da8') in 0.030186 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-CutBracken_Normal-unity.tga
+  artifactKey: Guid(70443eb163acb1045b1e3457f3e04e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-CutBracken_Normal-unity.tga using Guid(70443eb163acb1045b1e3457f3e04e02) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8699c2e3bbba1f96954a19792d9bcf4b') in 0.029809 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Needles Yellow - bump.mat
+  artifactKey: Guid(a37f5bc9fb31132469c80bd184b0e2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Pine Needles Yellow - bump.mat using Guid(a37f5bc9fb31132469c80bd184b0e2fa) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '082b7079bee47dd1f86c07ad0d49a229') in 0.031308 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss Rocks Dirt.mat
+  artifactKey: Guid(589e5a7cf38d6694a94d670949e398e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Moss Rocks Dirt.mat using Guid(589e5a7cf38d6694a94d670949e398e3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '32f7ecec237bbd825b71b8b1b1cb14ff') in 0.023396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DeadSkinnyLeaves-Closer_Normal-unity.tga
+  artifactKey: Guid(c794863d0c2b3e14b9c94556379b6de5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DeadSkinnyLeaves-Closer_Normal-unity.tga using Guid(c794863d0c2b3e14b9c94556379b6de5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd502c292a4012b92ab6cd46fa1af40e2') in 0.024423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/Tree_Textures/translucency_gloss.png
+  artifactKey: Guid(3b74af287ec97344ea1f06d44e1d716b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/translucency_gloss.png using Guid(3b74af287ec97344ea1f06d44e1d716b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dff028b3404a488f836d4d5362c1d55d') in 0.025058 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/NewLayer 3.terrainlayer
+  artifactKey: Guid(cc7b8678aa17aad44a6c9f673cb789b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 3.terrainlayer using Guid(cc7b8678aa17aad44a6c9f673cb789b7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '37c675203680dbc11468ae49eaa8a51c') in 0.023472 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Matted Grass - bump.mat
+  artifactKey: Guid(6faeb741a994ab24d82cb52252c77e92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Matted Grass - bump.mat using Guid(6faeb741a994ab24d82cb52252c77e92) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36e93baf04552ff309a1a1a7c082fb3c') in 0.032341 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Long Thing.mat
+  artifactKey: Guid(0df4fe390e66e2d429a57ff5f44ca4fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Long Thing.mat using Guid(0df4fe390e66e2d429a57ff5f44ca4fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3b394f5b0f5d1757edcd2f2b611bc113') in 0.023887 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green 2.mat
+  artifactKey: Guid(181b2ea6ec280654eb80ba4421e5ec15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green 2.mat using Guid(181b2ea6ec280654eb80ba4421e5ec15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5abf2ea8cfe22890944afbf3eaa4c88a') in 0.025884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Matted Grass.mat
+  artifactKey: Guid(d33cd52a4265aca40be170d98b78e122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dry Matted Grass.mat using Guid(d33cd52a4265aca40be170d98b78e122) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd05064444ad3b8924e95a53d50a80e37') in 0.022545 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Decayed Leaves.mat
+  artifactKey: Guid(ac73db8833294964a9b5f60b941139e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Decayed Leaves.mat using Guid(ac73db8833294964a9b5f60b941139e1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '968c35b9bf56841ae915685e17493197') in 0.024162 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryMattedGrass.tga
+  artifactKey: Guid(a250f670675ce2245963a445852305fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryMattedGrass.tga using Guid(a250f670675ce2245963a445852305fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75c9de321c0adb978b61ee8668c09c4c') in 0.028401 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryPineNeedles_Normal-unity.tga
+  artifactKey: Guid(89a5211f2c5fd2a42826ad808910e571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryPineNeedles_Normal-unity.tga using Guid(89a5211f2c5fd2a42826ad808910e571) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9eb210399f961a7b3fa33fb8b476222d') in 0.032893 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryGrassTinyWhiteFlowers_Normal-unity.tga
+  artifactKey: Guid(223f939dee6665c499cf8714d7f3ab44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryGrassTinyWhiteFlowers_Normal-unity.tga using Guid(223f939dee6665c499cf8714d7f3ab44) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '24bd7d9d7b2936d458db12453b731a5b') in 0.025563 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryMattedGrass_Normal-unity.tga
+  artifactKey: Guid(1d8e7889070f33843bd7c6be75d109b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryMattedGrass_Normal-unity.tga using Guid(1d8e7889070f33843bd7c6be75d109b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0b7ac969ada382fffd703d353bb00b9') in 0.027950 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DensePointyLeaves_Normal-unity.tga
+  artifactKey: Guid(179fe0c48644bc34d97c8a2b31050d61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DensePointyLeaves_Normal-unity.tga using Guid(179fe0c48644bc34d97c8a2b31050d61) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '058fb86de901ed6f6532c7e0e6bf2e48') in 0.024092 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves.mat
+  artifactKey: Guid(b523fb16708d31046a411d1c35237b3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves.mat using Guid(b523fb16708d31046a411d1c35237b3b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b1394c1630ba3ad27e7641bf565b9a6a') in 0.022778 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BarkChips_Color-Unity.tga
+  artifactKey: Guid(6dab5cb073733fd40b97ae31bceefc06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BarkChips_Color-Unity.tga using Guid(6dab5cb073733fd40b97ae31bceefc06) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a3db9582f79814db42c83d9368942d94') in 0.029624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Boggy Marsh - bump.mat
+  artifactKey: Guid(3dad30af44e08324280030bef3e7c671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Boggy Marsh - bump.mat using Guid(3dad30af44e08324280030bef3e7c671) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f58eebab02e5f114f4b5fd83fed40069') in 0.031258 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green.mat
+  artifactKey: Guid(fa58af3a8fd90754791cc319942faf68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Red Green.mat using Guid(fa58af3a8fd90754791cc319942faf68) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0a17305dcffaaed2c3be10864e8248e') in 0.024780 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Patchy - bump.mat
+  artifactKey: Guid(7357e149ecf921f42a4206ecc5597d88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Patchy - bump.mat using Guid(7357e149ecf921f42a4206ecc5597d88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9724e0c8722aef95d8aa445643853750') in 0.031224 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/NewLayer 7.terrainlayer
+  artifactKey: Guid(fbd5a28b3b3060b498c447c0cd70e07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 7.terrainlayer using Guid(fbd5a28b3b3060b498c447c0cd70e07a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '669e5cd535c8aed4064925b1bbcd5e3c') in 0.017129 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots.mat
+  artifactKey: Guid(1d8a73e9df88a7f4f8a36699027c388b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots.mat using Guid(1d8a73e9df88a7f4f8a36699027c388b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '10ca0deef293be69cfff84fe78e3ee05') in 0.112633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000027 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Lotsa Green Leaves.mat
+  artifactKey: Guid(5b0639fea80fa7a43abf3a3505644bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Cover Lotsa Green Leaves.mat using Guid(5b0639fea80fa7a43abf3a3505644bac) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '11f0badcab1c1215fdf6b992f90fa056') in 0.026017 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ColorFallLeavesOnGrass.tga
+  artifactKey: Guid(aec1258e093e1034e83a338ee5420a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ColorFallLeavesOnGrass.tga using Guid(aec1258e093e1034e83a338ee5420a0a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0b893dba89e9b3df09b69a2a1deee3b1') in 0.029614 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Cover Green Lt Green - bump.mat
+  artifactKey: Guid(afd4a28b7eb3d5b4ba500450ad4f6f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dense Cover Green Lt Green - bump.mat using Guid(afd4a28b7eb3d5b4ba500450ad4f6f94) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b8f70705fc7babde47c100a6cd80d8a4') in 0.031228 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-HillyUndergrowth.png
+  artifactKey: Guid(5d8085b3546078e4594659f0e9850f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-HillyUndergrowth.png using Guid(5d8085b3546078e4594659f0e9850f2d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '228e4059b7e7dc345a451788b4813566') in 0.027437 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed 2_Normal-unity.tga
+  artifactKey: Guid(47c0bb6180be5e6478d8591e786cb309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed 2_Normal-unity.tga using Guid(47c0bb6180be5e6478d8591e786cb309) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a83a920edafecdeb0b54cf5212a64ca4') in 0.027617 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers-closer_Normal-unity.tga
+  artifactKey: Guid(e94427229975e89418b9638a6543ae39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers-closer_Normal-unity.tga using Guid(e94427229975e89418b9638a6543ae39) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8663981b35b2f9daa83e29a4527d1ee1') in 0.027826 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed 2_Color-unity.tga
+  artifactKey: Guid(86d847f32652f3c4490be849fd13b197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed 2_Color-unity.tga using Guid(86d847f32652f3c4490be849fd13b197) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e2e72a4297b09c832af533eb2c9f92b5') in 0.027408 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed 2.tga
+  artifactKey: Guid(1a3516b43c55bc942a404c616a30329f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed 2.tga using Guid(1a3516b43c55bc942a404c616a30329f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b6486165ca74cb4eea6a5d9cfcea1bd1') in 0.026073 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-greenWithLightGrn_Normal-unity.tga
+  artifactKey: Guid(cc1776733f7854a428ae123b31dc0a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-greenWithLightGrn_Normal-unity.tga using Guid(cc1776733f7854a428ae123b31dc0a64) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6f72bb2cbca11bea9e3d7001225c2017') in 0.026624 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000025 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-HillyUndergrowth_Color-unity.tga
+  artifactKey: Guid(0fd3db50d098fac469d03a62e6cab7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-HillyUndergrowth_Color-unity.tga using Guid(0fd3db50d098fac469d03a62e6cab7ce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f7c8327580d06e0fa6642c69439706d1') in 0.030492 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryDirt-SmallROcks.tga
+  artifactKey: Guid(b9e0a1bd9a62a8849b5704efaf49a08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryDirt-SmallROcks.tga using Guid(b9e0a1bd9a62a8849b5704efaf49a08f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7690f9075db50b87025161c961508c91') in 0.024881 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BoggyMarsh_Color-unity.tga
+  artifactKey: Guid(7bc18c3f598cb9c4fa763722325bd7d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BoggyMarsh_Color-unity.tga using Guid(7bc18c3f598cb9c4fa763722325bd7d1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c13e3bbd38217aa61bb03474c6018fd0') in 0.026832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryPineNeedles.png
+  artifactKey: Guid(8fe8aae467b949948bd45c7fa7ccda75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryPineNeedles.png using Guid(8fe8aae467b949948bd45c7fa7ccda75) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'abb305e3e1a1a32afdde53807848a2aa') in 0.024199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Forest Dry Pine Needles.mat
+  artifactKey: Guid(c80abfdf7417ebf4084ff21e8dcb1b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Forest Dry Pine Needles.mat using Guid(c80abfdf7417ebf4084ff21e8dcb1b73) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '13fe7b230c27002196db3e86d44845ef') in 0.019394 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots 2.mat
+  artifactKey: Guid(b70b93d9faf2e6649a6ef2275d4b6db0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots 2.mat using Guid(b70b93d9faf2e6649a6ef2275d4b6db0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f0fed754c21c7407c19b3f9e2e2eee31') in 0.018122 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-greenWithLightGrn.tga
+  artifactKey: Guid(5493d860da32c694184190ef2dd3314b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-greenWithLightGrn.tga using Guid(5493d860da32c694184190ef2dd3314b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd2fc9265e169bba9d9fe36ec9b74f3c6') in 0.026786 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Earth with Heart Shapes Leaves - bump.mat
+  artifactKey: Guid(5efdc2601b237f5478779e0702029ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Earth with Heart Shapes Leaves - bump.mat using Guid(5efdc2601b237f5478779e0702029ad1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0f15d54b36019fc049d2035dfb03e490') in 0.030373 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Boggy Marsh.mat
+  artifactKey: Guid(ecf7d252f59690341a1c648e0c15fad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Boggy Marsh.mat using Guid(ecf7d252f59690341a1c648e0c15fad0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4b7a16c80d53cbfd3fd41c7b0d07f862') in 0.025807 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000023 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers.png
+  artifactKey: Guid(9c6f0e664925d6549af866bf8e87076a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers.png using Guid(9c6f0e664925d6549af866bf8e87076a) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3dd066a510b3b6129e0fa8a49e25f237') in 0.033503 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryEarthDryGrass_Color-unity.tga
+  artifactKey: Guid(0375bda8f8bc57e4085977286cb27ca9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryEarthDryGrass_Color-unity.tga using Guid(0375bda8f8bc57e4085977286cb27ca9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'd75f5ee071d7638e784c917834566694') in 0.025670 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DeadSkinnyLeaves_Normal-unity.tga
+  artifactKey: Guid(b7ecf4334f8ed80428ec0bcd6c26e54b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DeadSkinnyLeaves_Normal-unity.tga using Guid(b7ecf4334f8ed80428ec0bcd6c26e54b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1bf69ef857f051ccb9581bfd530a927d') in 0.027179 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000011 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DenseSmallLeavesTinyPurpleFlowers_Normal-unity.tga
+  artifactKey: Guid(8694c86dfe0b3e2488bf7f9dcbe1c156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DenseSmallLeavesTinyPurpleFlowers_Normal-unity.tga using Guid(8694c86dfe0b3e2488bf7f9dcbe1c156) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c3c70d0102e616de740d53b892d5781') in 0.024999 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LightDuff.tga
+  artifactKey: Guid(9cea4923787bc2b4f82065071a2ce99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LightDuff.tga using Guid(9cea4923787bc2b4f82065071a2ce99d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b0970aff6485ce0fd91c86c18c77385d') in 0.025600 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ManySingleHeartShapedLeaves_Color-unity.tga
+  artifactKey: Guid(6710a47ead76fb841ba20b390aa5fadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ManySingleHeartShapedLeaves_Color-unity.tga using Guid(6710a47ead76fb841ba20b390aa5fadc) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c928650a475b6db2e48d21e2605f25de') in 0.024210 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksLeaves_Normal-unity.tga
+  artifactKey: Guid(259a90c7c90d86b45bd984a4d6b413a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksLeaves_Normal-unity.tga using Guid(259a90c7c90d86b45bd984a4d6b413a6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1969ba8161fb1dd867f23ac7556d1666') in 0.023850 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000036 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksLeaves2.tga
+  artifactKey: Guid(9bd45dd181e27e74986f2bbb342eef21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksLeaves2.tga using Guid(9bd45dd181e27e74986f2bbb342eef21) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c16c7ac68612a2629613934c4404e6e9') in 0.025352 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongThinGrassDiag.tga
+  artifactKey: Guid(29ed14c135444ed4299e370298bb1ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongThinGrassDiag.tga using Guid(29ed14c135444ed4299e370298bb1ba9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9aaf67003a240ed3381ef95689844a6b') in 0.023029 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksDirt_Color-unity.tga
+  artifactKey: Guid(ceb08b03954514944a462e25832e0679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksDirt_Color-unity.tga using Guid(ceb08b03954514944a462e25832e0679) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3f9289d428500fb8d1619eed21c2da33') in 0.024416 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-PatchyGrass.tga
+  artifactKey: Guid(b0631b2d8c8160e469c1e923d349a36e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-PatchyGrass.tga using Guid(b0631b2d8c8160e469c1e923d349a36e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'b78e6520ad7d433fd2c4556607a165f5') in 0.025644 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LotsaLeaves.png
+  artifactKey: Guid(81eacab7e330aff468c7b51ecf386655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LotsaLeaves.png using Guid(81eacab7e330aff468c7b51ecf386655) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'cc691218c1afccb261b084f1a4839b30') in 0.024949 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksLeaves_Color-unity.tga
+  artifactKey: Guid(b58732aa4eec05949b8bfb2f66dfb976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksLeaves_Color-unity.tga using Guid(b58732aa4eec05949b8bfb2f66dfb976) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '36bca64f977c17d20717cadf46f9b1d1') in 0.025765 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LightDuff-Closer.tga
+  artifactKey: Guid(4a292ee76480f304f9af05b5c419d0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LightDuff-Closer.tga using Guid(4a292ee76480f304f9af05b5c419d0af) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4eb28b7450ed3799a14dda40e14e2eca') in 0.023518 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryWithGReenLeaves_Normal-unity.tga
+  artifactKey: Guid(c75651a66be386a41a46ec1bc9a96517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryWithGReenLeaves_Normal-unity.tga using Guid(c75651a66be386a41a46ec1bc9a96517) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0d807b4830feb93caa4bd06fe5cf8139') in 0.025710 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryWithGReenLeaves_Color-unity.tga
+  artifactKey: Guid(65d86361da81dc44ab3a36fc642671e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryWithGReenLeaves_Color-unity.tga using Guid(65d86361da81dc44ab3a36fc642671e7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6fb087c4b17f27034d1fb880d3691353') in 0.024407 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000583 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-Moss & Needles_Color-unity.tga
+  artifactKey: Guid(648683f0e0b9c6246bb1a044392d6cc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-Moss & Needles_Color-unity.tga using Guid(648683f0e0b9c6246bb1a044392d6cc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c67268bc6018f87b600cf95b895e8f7c') in 0.024480 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryForestFloorSmallGreenery.png
+  artifactKey: Guid(b19c8717d0f5f744691da7b0c66c11b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryForestFloorSmallGreenery.png using Guid(b19c8717d0f5f744691da7b0c66c11b1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '227f50d4b05deaf16ed5fbba0ce83988') in 0.030357 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryWithGReenLeaves.tga
+  artifactKey: Guid(360a238c8723e2b41a798a4bf4862866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryWithGReenLeaves.tga using Guid(360a238c8723e2b41a798a4bf4862866) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'dbd506b69b0276344230f7fd7a337daa') in 0.032169 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed_Color-unity.tga
+  artifactKey: Guid(b508aff33715ca44a9bd45f06f15db88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed_Color-unity.tga using Guid(b508aff33715ca44a9bd45f06f15db88) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '74b01e4905b8a7dcaa0fd1d2c5b35a97') in 0.023857 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-Brambles.tga
+  artifactKey: Guid(0e6038f13d562d2488f76911bc196a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-Brambles.tga using Guid(0e6038f13d562d2488f76911bc196a8c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bfefe4e21faceb456e1786fcb693d709') in 0.023980 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/NewBrush 2.brush
+  artifactKey: Guid(622a9777e43d86f48881d0aa5e7bea15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewBrush 2.brush using Guid(622a9777e43d86f48881d0aa5e7bea15) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97d276b92ae72ba6a66a4ba5483ae8fb') in 0.017093 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Hilly Undergrowth.mat
+  artifactKey: Guid(0f392bda628707d4abac5e2d59a8f154) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Hilly Undergrowth.mat using Guid(0f392bda628707d4abac5e2d59a8f154) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '535cbcffe80505be1271db4d187f01d5') in 0.018810 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed.tga
+  artifactKey: Guid(c397e462deafd9548a51d65e6ecd6c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-leaves-RedGreenMixed.tga using Guid(c397e462deafd9548a51d65e6ecd6c98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75b26036353a71f4d567c34f2c240897') in 0.023930 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryForestPineNeedle_Normal-unity.tga
+  artifactKey: Guid(65c6615e6601d4b439520a0cdd03ba2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryForestPineNeedle_Normal-unity.tga using Guid(65c6615e6601d4b439520a0cdd03ba2e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5775f6c444cbe49d518e3ae917be6f3f') in 0.025032 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ShortGrass_Normal-unity.tga
+  artifactKey: Guid(a787582cf93bbe745a7ba5ebb36d1aa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ShortGrass_Normal-unity.tga using Guid(a787582cf93bbe745a7ba5ebb36d1aa7) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f5086465365fdff301502f4612d6ad14') in 0.025290 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SticksLeaves_Color-unity.tga
+  artifactKey: Guid(0ab224a207faf3e40843ff5f69be993e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SticksLeaves_Color-unity.tga using Guid(0ab224a207faf3e40843ff5f69be993e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7b9d73989a0a350e695ee4d4f4343f23') in 0.026199 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000018 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ThickIvy.png
+  artifactKey: Guid(e6dc7fe23f4dad64e86a63b9818d6106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ThickIvy.png using Guid(e6dc7fe23f4dad64e86a63b9818d6106) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '69dd711334ac3ccf44de25a77f009d75') in 0.027988 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WinterOakLeaves-Closer_Normal-unity.tga
+  artifactKey: Guid(ca8a2d84a837f6d4d82f2d385b130ef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WinterOakLeaves-Closer_Normal-unity.tga using Guid(ca8a2d84a837f6d4d82f2d385b130ef5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aca1c2151a4d6e657172de2a38b271a5') in 0.024698 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SpringSnowGrass_Normal-unity.tga
+  artifactKey: Guid(7063dc47d277e0b41b84a9c2e8e3e6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SpringSnowGrass_Normal-unity.tga using Guid(7063dc47d277e0b41b84a9c2e8e3e6bd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'f489067e6d0782466ca9e287317ab4f5') in 0.024636 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ShortGrass.png
+  artifactKey: Guid(3aba915850e060e4ca3c6dadf36ae8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ShortGrass.png using Guid(3aba915850e060e4ca3c6dadf36ae8c1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '504bd0e41238b4d19cd1811397287aff') in 0.023832 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SpringSnow_Color-unity.tga
+  artifactKey: Guid(2f84cfe3b6a3d88408f554935eee4eb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SpringSnow_Color-unity.tga using Guid(2f84cfe3b6a3d88408f554935eee4eb1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '6e1df1d708fe62585f49668a8c45c90b') in 0.024319 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WetWinterOakLeaves_Normal-unity.tga
+  artifactKey: Guid(cb478220ed1592943a69c33506dd8ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WetWinterOakLeaves_Normal-unity.tga using Guid(cb478220ed1592943a69c33506dd8ca1) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '56d66a9c4c315b8d3b0d5bb9fcc4a453') in 0.032402 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WetWinterOakLeaves.tga
+  artifactKey: Guid(9687b91e795f91d429f088d5763a81ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WetWinterOakLeaves.tga using Guid(9687b91e795f91d429f088d5763a81ba) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '97e54589a1be145e29a01e3a47f1116b') in 0.023821 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000012 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-PineBoughs_Color-unity.tga
+  artifactKey: Guid(e6f20cd8601ba8a4cbca25f594f7bdc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-PineBoughs_Color-unity.tga using Guid(e6f20cd8601ba8a4cbca25f594f7bdc6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'c0bc96e5fa2ad584398d4015de658a0a') in 0.025531 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WetWinterOakLeaves_Color-unity.tga
+  artifactKey: Guid(b43cdbfc3b467014894c0aee10c7f686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WetWinterOakLeaves_Color-unity.tga using Guid(b43cdbfc3b467014894c0aee10c7f686) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7631295d5abd20cf0a85a3846333eaa3') in 0.030830 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WinterOakLeaves-Closer_Color-unity.tga
+  artifactKey: Guid(30959b7e6b16346498d150dfa47caa19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WinterOakLeaves-Closer_Color-unity.tga using Guid(30959b7e6b16346498d150dfa47caa19) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '7513c13d7da9de8723b3ecad190ef001') in 0.025884 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ShortGrass_Color-unity.tga
+  artifactKey: Guid(fa6d0d18c40d98749a3ad508767df523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-ShortGrass_Color-unity.tga using Guid(fa6d0d18c40d98749a3ad508767df523) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8823ce6e42c6e49cb86f424c103aa524') in 0.025686 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WinterOakLeaves_Color-unity.tga
+  artifactKey: Guid(e1f80ac9cde976840b1cd0c622ae3cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-WinterOakLeaves_Color-unity.tga using Guid(e1f80ac9cde976840b1cd0c622ae3cd5) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3eb2d743fd429aa50a3159fc498996a3') in 0.024875 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Long Thing - bump.mat
+  artifactKey: Guid(5819805e9dc6b8241b35a940575083e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Grass Long Thing - bump.mat using Guid(5819805e9dc6b8241b35a940575083e0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '3d0c7335f294890c4accf7cab53ac57d') in 0.030934 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-CrackedEarth_Normal-unity.tga
+  artifactKey: Guid(516399d4e0398c14aa1e8c22764378c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-CrackedEarth_Normal-unity.tga using Guid(516399d4e0398c14aa1e8c22764378c8) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '40c41e3a0ce7a647fecc67e29922ad04') in 0.023273 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Fall Leaves on Grass.mat
+  artifactKey: Guid(a36221611054d08499d263087790c545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Fall Leaves on Grass.mat using Guid(a36221611054d08499d263087790c545) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a0f01ec860c4849c8c47bb8bb65af8db') in 0.018537 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves Decayed - bump.mat
+  artifactKey: Guid(28bb925b69c34744e9cb45ed4cd837c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves Decayed - bump.mat using Guid(28bb925b69c34744e9cb45ed4cd837c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '0c09195c5625b24491803582e2c78468') in 0.020364 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-FernyBankLeavesTwigs_Color-unity.tga
+  artifactKey: Guid(d2b9117fe5781a047b7d059792ff2073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-FernyBankLeavesTwigs_Color-unity.tga using Guid(d2b9117fe5781a047b7d059792ff2073) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e19423e4cbb107b6a8bd718b64efb22e') in 0.025516 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dense Leaves Tiny Purple Flowers.mat
+  artifactKey: Guid(07278938ac16d9d49abb3af654422a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Dense Leaves Tiny Purple Flowers.mat using Guid(07278938ac16d9d49abb3af654422a98) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ff510a4c0643b02f995a266ac4fdd4b4') in 0.020423 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SticksLeaves.png
+  artifactKey: Guid(37c401486e918904ebd6bae116cef5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-SticksLeaves.png using Guid(37c401486e918904ebd6bae116cef5c2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'e1a1be37e51030fbe0697eade5a3d420') in 0.031622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongThinGrassDiag_Normal-unity.tga
+  artifactKey: Guid(2e8559be23aa5fb4a90dcd1adf569bce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongThinGrassDiag_Normal-unity.tga using Guid(2e8559be23aa5fb4a90dcd1adf569bce) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'be91ab1087afb0ac6ec69487a4c27a9b') in 0.024392 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Dirt Small Rocks - bump.mat
+  artifactKey: Guid(18397306e1402b74cb360f346d849fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Dirt Small Rocks - bump.mat using Guid(18397306e1402b74cb360f346d849fec) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1c7c88062e0454ecf624c8c5bebaccfc') in 0.019861 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Pine Needles - bump.mat
+  artifactKey: Guid(237bf8f23d89a964c819532821b051c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Dry Pine Needles - bump.mat using Guid(237bf8f23d89a964c819532821b051c6) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ecc9141683c0dcdfe35c803215daaa51') in 0.023459 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000021 seconds.
+  path: Assets/NewLayer 8.terrainlayer
+  artifactKey: Guid(3c9c042b3e6c6484598288a130c2ca74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/NewLayer 8.terrainlayer using Guid(3c9c042b3e6c6484598288a130c2ca74) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'aaa7233976896f1138c478bc8f43ab6b') in 0.018388 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/Tree_Textures/diffuse.png
+  artifactKey: Guid(549ece13b1e22f14e8f10e1a480ed144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/Tree_Textures/diffuse.png using Guid(549ece13b1e22f14e8f10e1a480ed144) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9c18f1d24035e6e84145ed98f530baa7') in 0.025426 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongGreenGrass_Color-unity.tga
+  artifactKey: Guid(4c3c7d2ac45f05c4c8d72a3f5f9f90f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongGreenGrass_Color-unity.tga using Guid(4c3c7d2ac45f05c4c8d72a3f5f9f90f2) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '960e903827de80d9b7d58ec5dcec886c') in 0.029853 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers_Color-unity.tga
+  artifactKey: Guid(c23f8538c6730c842bc44048c33fad5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers_Color-unity.tga using Guid(c23f8538c6730c842bc44048c33fad5f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '2cb391619f7dd7a1e735812217eed13b') in 0.032237 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TerrainData_fd923508-1c2a-4c75-b80f-3b5498bd5588.asset
+  artifactKey: Guid(c4718fe6bcb17fb4fb3fba920ddf2c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TerrainData_fd923508-1c2a-4c75-b80f-3b5498bd5588.asset using Guid(c4718fe6bcb17fb4fb3fba920ddf2c28) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '48b669b215f85827d3002ac77c9f9ab5') in 0.018634 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Mossy Rocks and Leaves 2 - bump.mat
+  artifactKey: Guid(032425894cdddcb4eb2c959d279e7d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Mossy Rocks and Leaves 2 - bump.mat using Guid(032425894cdddcb4eb2c959d279e7d0f) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'da89a3bbc230023fa6da01846274e907') in 0.018538 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000017 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LeafyTrail_Color-unity.tga
+  artifactKey: Guid(d0f8afff511c6bf45a8205bb6581fb2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LeafyTrail_Color-unity.tga using Guid(d0f8afff511c6bf45a8205bb6581fb2c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'ce1f04686ed79f071b2cb4eea9668f41') in 0.023235 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryForestPineNeedle_Color-unity.tga
+  artifactKey: Guid(393c249db0c341847839919a99289064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DryForestPineNeedle_Color-unity.tga using Guid(393c249db0c341847839919a99289064) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'df1668dacc22489263e2ab7545b2509f') in 0.024123 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-PatchyGrass_Normal-unity.tga
+  artifactKey: Guid(71d906f6a840e2f4d88219aaf7e698fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-PatchyGrass_Normal-unity.tga using Guid(71d906f6a840e2f4d88219aaf7e698fd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '75515ce9910314b0fd6c1012e1af2319') in 0.026409 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000032 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BoggyMarsh.png
+  artifactKey: Guid(d09b14117e780b04787562cf2d1f2f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-BoggyMarsh.png using Guid(d09b14117e780b04787562cf2d1f2f04) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a7f5ffd4595325b063dda4e459e892af') in 0.022757 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DensePointyLeaves_Color-unity.tga
+  artifactKey: Guid(823858f6829c84241aa3e386b9965159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DensePointyLeaves_Color-unity.tga using Guid(823858f6829c84241aa3e386b9965159) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9516da05fc157a1830fdbd6f6fad1cd4') in 0.024151 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksDirt_Normal-unity.tga
+  artifactKey: Guid(658b0c707ed1ffa43b565c539ce9296d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossyRocksDirt_Normal-unity.tga using Guid(658b0c707ed1ffa43b565c539ce9296d) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '5274150a93ce3c3c1faf0495b1cf4322') in 0.024424 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Long Green.mat
+  artifactKey: Guid(df483d6540fd2724586298ab6ad1384c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Grass Long Green.mat using Guid(df483d6540fd2724586298ab6ad1384c) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a63433b7fd710afee17074b6e7d3e65f') in 0.019333 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossWithDryLeaves.png
+  artifactKey: Guid(70571011a9fd0a94ca3b8deb92b8b77e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-MossWithDryLeaves.png using Guid(70571011a9fd0a94ca3b8deb92b8b77e) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '8ccfbeb06e8af4a30700142116770ca9') in 0.024396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongThinGrassDiag_Color-unity.tga
+  artifactKey: Guid(08eb16a23eb5e1e41bd3e65774c8d31b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LongThinGrassDiag_Color-unity.tga using Guid(08eb16a23eb5e1e41bd3e65774c8d31b) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'a55911d301320d7e0b47c7ffbd78df77') in 0.027622 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000016 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Readme.txt
+  artifactKey: Guid(ac1645427b18923488e4d66faf65b5b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Readme.txt using Guid(ac1645427b18923488e4d66faf65b5b0) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '1a986d0625e25a361c3e3b890e388a44') in 0.016633 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LeafyTrail.tga
+  artifactKey: Guid(77aedcc02be50ca41ae2332b792435cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-LeafyTrail.tga using Guid(77aedcc02be50ca41ae2332b792435cd) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '9f7586034b3d5cfc270928c9a3b32818') in 0.027841 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000022 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DecayedLeaves.png
+  artifactKey: Guid(4a69954cd5314a045bf261cfdf205e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-DecayedLeaves.png using Guid(4a69954cd5314a045bf261cfdf205e52) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '724b0a96304b6cecc5a23abbc54664d3') in 0.024346 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers_Normal-unity.tga
+  artifactKey: Guid(7103f90743c6f1c4797451de41c7c0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-GreenLeavesWhiteFlowers_Normal-unity.tga using Guid(7103f90743c6f1c4797451de41c7c0f9) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: '4005de869c1ffeef291ab08207c935f4') in 0.032594 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-Moss & Needles_Normal-unity.tga
+  artifactKey: Guid(fddc3f00d46540b438572b4f42a3e0c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23)
+Start importing Assets/TexturesTerrainAvecNormalMap/Texture Maps - Forest Grounds/ground-Moss & Needles_Normal-unity.tga using Guid(fddc3f00d46540b438572b4f42a3e0c3) Importer(2089858483,0ecaa5967403d082aa24f35e1b516d23) Generated GUIDs only implemented for interfaces!
+ -> (artifact id: 'bc88f03b842d51e4346944a97b9f884f') in 0.024960 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 1
+========================================================================
+Received Import Request.
+  Time since last request: 43.586820 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Plants White Flowers.mat
+  artifactKey: Guid(50d2a96a825e307429441c8cdf55dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Plants White Flowers.mat using Guid(50d2a96a825e307429441c8cdf55dc77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '13ad604700c10dc36c2533fab35cc557') in 0.167411 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff 2.mat
+  artifactKey: Guid(faa1bed1e6751b44eaf5d6c9358f66a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Light Duff 2.mat using Guid(faa1bed1e6751b44eaf5d6c9358f66a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b049169cee68c795dcc1a1890f1b3675') in 0.015007 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000024 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves Decayed - bump.mat
+  artifactKey: Guid(28bb925b69c34744e9cb45ed4cd837c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves Decayed - bump.mat using Guid(28bb925b69c34744e9cb45ed4cd837c3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0f5b8381a66576ec1e615fd80a5275c7') in 0.115239 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Meadow with Small Flowers - bump.mat
+  artifactKey: Guid(697066747f1f9d44f898e598ce2849c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Meadow with Small Flowers - bump.mat using Guid(697066747f1f9d44f898e598ce2849c5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17a29f42dccee68e79d98c2b2a85dd7e') in 0.013609 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000014 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Moss with Dry Leaves - bump.mat
+  artifactKey: Guid(cfee68ba83e85db4c9bde337b6997b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Moss with Dry Leaves - bump.mat using Guid(cfee68ba83e85db4c9bde337b6997b2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '457252f69047c68314e709b71cd988f3') in 0.015358 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Light Duff 2 - bump.mat
+  artifactKey: Guid(f3296b9cabbe9894aa70abc954f0a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Light Duff 2 - bump.mat using Guid(f3296b9cabbe9894aa70abc954f0a6e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2066f14ef4af030c57826521b486d38a') in 0.016264 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000020 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Mossy Rocks and Leaves.mat
+  artifactKey: Guid(f31bd972fa533e848859cd925a0e0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Mossy Rocks and Leaves.mat using Guid(f31bd972fa533e848859cd925a0e0aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a2bf749969997985272b8a5a393e32f') in 0.014732 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000015 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves Decayed.mat
+  artifactKey: Guid(d044152373b3b1e43855e0719649b444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Winter Oak Leaves Decayed.mat using Guid(d044152373b3b1e43855e0719649b444) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1e90ed59c8a65deabc962b1680c000b') in 0.013396 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+========================================================================
+Received Import Request.
+  Time since last request: 0.000013 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves - bump.mat
+  artifactKey: Guid(0767790b062a6c946a81f10cf7d90c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds with Bump/ground - Winter Oak Leaves - bump.mat using Guid(0767790b062a6c946a81f10cf7d90c02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '28b6a7a602e2f693b8168ed60548a254') in 0.013031 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 3
+========================================================================
+Received Import Request.
+  Time since last request: 0.000019 seconds.
+  path: Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots 2.mat
+  artifactKey: Guid(b70b93d9faf2e6649a6ef2275d4b6db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/TexturesTerrainAvecNormalMap/Materials - Forest Grounds/ground - Green Shoots 2.mat using Guid(b70b93d9faf2e6649a6ef2275d4b6db0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'abd8fa59cc0d69e28d77ffc39afa2ff8') in 0.012784 seconds
+Number of updated asset objects reloaded before import = 0
+Number of asset objects unloaded after import = 2
+Editor requested this worker to shutdown with reason: Scaling down because of idle timeout
+TcpMessagingSession - receive error: operation aborted. errorcode: 995, details: L’opération d’entrée/sortie a été abandonnée en raison de l’arrêt d’un thread ou à la demande d’une application.
+AssetImportWorker is now disconnected from the server
+Process exiting
+Exiting without the bug reporter. Application will terminate with return code 0
