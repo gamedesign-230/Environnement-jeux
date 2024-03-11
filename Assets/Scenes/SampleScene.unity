@@ -23,9 +23,9 @@ RenderSettings:
   m_AmbientSkyColor: {r: 0.212, g: 0.227, b: 0.259, a: 1}
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
-  m_AmbientIntensity: 0.54
+  m_AmbientIntensity: 0.45
   m_AmbientMode: 0
-  m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
+  m_SubtractiveShadowColor: {r: 0, g: 0, b: 0, a: 1}
   m_SkyboxMaterial: {fileID: 2100000, guid: 40086fa86f9b7554486601f606907030, type: 2}
   m_HaloStrength: 1
   m_FlareStrength: 1
@@ -35,10 +35,10 @@ RenderSettings:
   m_DefaultReflectionMode: 0
   m_DefaultReflectionResolution: 256
   m_ReflectionBounces: 1
-  m_ReflectionIntensity: 1
+  m_ReflectionIntensity: 0
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 705507994}
-  m_IndirectSpecularColor: {r: 0.083157785, g: 0.07407249, b: 0.18996558, a: 1}
+  m_IndirectSpecularColor: {r: 0, g: 0, b: 0, a: 0}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
@@ -18358,6 +18358,68 @@ PrefabInstance:
     m_AddedGameObjects: []
     m_AddedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+--- !u!1001 &1383438125
+PrefabInstance:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Modification:
+    serializedVersion: 3
+    m_TransformParent: {fileID: 1386766599}
+    m_Modifications:
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalPosition.x
+      value: -356.85
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalPosition.y
+      value: -4.42
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalPosition.z
+      value: -44.74
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalRotation.w
+      value: 0.68371683
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalRotation.x
+      value: -0.68371683
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalRotation.y
+      value: 0.18036427
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalRotation.z
+      value: 0.18036422
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.x
+      value: -89.98
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.y
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_LocalEulerAnglesHint.z
+      value: 29.556
+      objectReference: {fileID: 0}
+    - target: {fileID: 919132149155446097, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+      propertyPath: m_Name
+      value: Street sign with stop (95)
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+    m_RemovedGameObjects: []
+    m_AddedGameObjects: []
+    m_AddedComponents: []
+  m_SourcePrefab: {fileID: 100100000, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+--- !u!4 &1383438126 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: -8679921383154817045, guid: c4c4371b7ec634c6db7588da31b2a6e6, type: 3}
+  m_PrefabInstance: {fileID: 1383438125}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &1385502438
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -18497,6 +18559,7 @@ Transform:
   - {fileID: 491966225}
   - {fileID: 1046922605}
   - {fileID: 575099267}
+  - {fileID: 1383438126}
   - {fileID: 1450266160}
   - {fileID: 1279511870}
   - {fileID: 1782955886}
